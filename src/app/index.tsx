@@ -27,7 +27,7 @@ export const App = () => {
 					type='secondary'
 					style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
 					<BurgerIcon type='primary' />
-					<span style={{ color: 'white' }}>Бублик20</span>
+					<span style={{ color: 'white' }}>Бублик2024</span>
 				</Button>
 				<Button
 					htmlType='button'
