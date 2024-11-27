@@ -1,0 +1,62 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding-left: 16px;
+	align-items: flex-end;
+}
+
+.total {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-bottom: 40px;
+}
+
+.total_icon {
+	transform: scale(1.5);
+}
+
+.draggable {
+	cursor: grabbing;
+	margin-right: 8px;
+}
+
+.listIngredients {
+	display: flex;
+	gap: 8px;
+	flex-direction: column;
+	max-height: 395px;
+	overflow: auto;
+	width: 570px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	overflow: auto;
+	max-height: 395px;
+}
+
+.listConstructorIngredients {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	overflow: auto;
+	max-height: 395px;
+}
+
+.detailsModal {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 120px 100px;
+	width: 362px;
+	height: 482px;
+}
+
+.buns {
+	width: 536px;
+}

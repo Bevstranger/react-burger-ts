@@ -1,0 +1,49 @@
+.wr {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.textCenter {
+	text-align: center;
+}
+
+.profileWrapper {
+	display: flex;
+	width: 100%;
+}
+
+.profileNav {
+	font-family: 'Jet Brains Mono';
+	width: 285px;
+	margin-top: 14px;
+	list-style: none;
+	padding: 25px;
+}
+
+.profileNav ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.profileNav li a {
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.link {
+	text-decoration: none;
+	color: #f2f2f5 !important;
+}
+
+.linkActive {
+	font-weight: 500;
+	font-size: 24px;
+	color: #2c2c2c;
+}
+
+.profileFormButtons {
+	display: flex;
+	justify-content: center;
+}
